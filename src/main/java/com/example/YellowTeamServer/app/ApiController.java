@@ -22,4 +22,10 @@ public class ApiController {
     public String sayHello() {
         return "This works and is not total shit";
     }
+    
+    @GetMapping("/oioi")
+    public String oioiTest() {
+        return "CUSTOM API ENDPOINT";
+    }
+    
 }
